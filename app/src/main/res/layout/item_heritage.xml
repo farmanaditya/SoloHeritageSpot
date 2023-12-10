@@ -1,0 +1,44 @@
+<!-- menu_item.xml -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@color/cardview_dark_background"/>
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Museum Lokananta"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="@+id/img_menu" />
+
+        <TextView
+            android:id="@+id/txt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:text="Museum Lokananta adalah adalah adalah adalah adalahadalah adalah adalah adalah adalah adalah sebuah studio rekaman yang bersejarah di Indonesia. Didirikan pada tahun 1956, Lokananta merupakan studio rekaman pertama di"
+            android:textSize="14sp"
+            app:layout_constraintTop_toTopOf="@+id/img_menu" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
