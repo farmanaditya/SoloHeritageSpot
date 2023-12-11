@@ -66,6 +66,9 @@ public class DistributionHeritageActivity extends FragmentActivity implements On
                 LatLng firstLocation = new LatLng(heritageList.get(0).getLatitude(), heritageList.get(0).getLongitude());
                 mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(firstLocation, 10f));
             }
+            // Enable zoom controls
+            mMap.getUiSettings().setZoomControlsEnabled(true);
         }
+
     }
 }

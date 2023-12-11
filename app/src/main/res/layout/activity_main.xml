@@ -15,7 +15,7 @@
         android:layout_margin="8dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="48dp"
-        android:text="Solo Heritage"
+        android:text="Solo Heritage Spot"
         android:textSize="32sp"
         android:textStyle="bold"
    />

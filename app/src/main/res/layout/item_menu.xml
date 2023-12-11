@@ -26,6 +26,7 @@
             android:text="DAFTAR MUSEUM"
             android:textColor="@android:color/white"
             android:textSize="24sp"
+            android:gravity="center"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
